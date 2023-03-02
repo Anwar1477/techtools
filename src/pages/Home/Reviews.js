@@ -4,9 +4,9 @@ import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useQuery } from 'react-query';
 import Rating from 'react-rating';
+import Slider from "react-slick";
 import auth from '../../firebase.init';
 import proofile from '../../images/proofile.png';
-import Slider from "react-slick";
 import Loading from '../../Shared/Loading';
 
 const Reviews = () => {
@@ -48,7 +48,7 @@ const Reviews = () => {
 
             <Slider {...settings} className='mb-28'>
                 {
-                    reviews.data.slice(0).reverse().map(review =>
+                    reviews.data.slice(11,15).reverse().map(review =>
                         <div key={review._id} >
                             <div className="border-2 border-yellow-400 rounded-lg px-4 py-6 flex flex-col justify-center items-center gap-6 mr-5 ">
 

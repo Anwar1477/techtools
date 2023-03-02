@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import one from './../../images/banner-1.jpg'
-import two from './../../images/banner-2.jpg'
-import three from './../../images/banner-3.jpg'
+import one from './../../images/banner-1.jpg';
+import two from './../../images/banner-2.jpg';
+import three from './../../images/banner-3.jpg';
 
 const Banner = () => {
     const settings = {
@@ -18,21 +18,21 @@ const Banner = () => {
     const banners = [
         {
             image: one,
-            smallTitle: 'Techfly MANUFACTURING',
+            smallTitle: 'TechTools MANUFACTURING',
             title: 'Providing',
             title1: 'BEST PRODUCTS',
             description: 'We won Many Industrial Awards and Got Many Certificates Since 2001-2022',
         },
         {
             image: two,
-            smallTitle: 'Techfly MANUFACTURING',
+            smallTitle: 'TechTools MANUFACTURING',
             title: 'Providing',
             title1: 'BEST PRODUCTS',
             description: 'We won Many Industrial Awards and Got Many Certificates Since 2001-2022',
         },
         {
             image: three,
-            smallTitle: 'Techfly MANUFACTURING',
+            smallTitle: 'TechTools MANUFACTURING',
             title: 'Providing',
             title1: 'BEST PRODUCTS',
             description: 'We won Many Industrial Awards and Got Many Certificates Since 2001-2022',
